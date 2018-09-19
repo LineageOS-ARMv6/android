@@ -17,7 +17,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="LineageOS/android_build" groups="pdk" >
+  <project path="build" name="LineageOS-ARMv6/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -25,12 +25,12 @@
 
   <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
   <project path="art" name="LineageOS/android_art" />
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
+  <project path="bionic" name="LineageOS-ARMv6/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="LineageOS/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="LineageOS/android_bootable_recovery-cm" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="cts" />
-  <project path="dalvik" name="LineageOS/android_dalvik" />
+  <project path="dalvik" name="LineageOS-ARMv6/android_dalvik" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -47,6 +47,8 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="device/google/accessory/arduino" name="LineageOS/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="LineageOS/android_device_google_accessory_demokit" groups="device" />
+  <project path="device/mdpi-common" name="LineageOS-ARMv6/android_device_mdpi-common" />
+  <project path="device/ldpi-common" name="LineageOS-ARMv6/android_device_ldpi-common" />
   <project path="device/sample" name="LineageOS/android_device_sample" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" />
@@ -128,7 +130,7 @@
   <project path="external/eyes-free" name="LineageOS/android_external_eyes-free" />
   <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" />
   <project path="external/fdlibm" name="LineageOS/android_external_fdlibm" />
-  <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" />
+  <!--project path="external/ffmpeg" name="LineageOS-ARMv6/android_external_ffmpeg" /-->
   <project path="external/flac" name="LineageOS/android_external_flac" groups="pdk" />
   <project path="external/freetype" name="LineageOS/android_external_freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" />
@@ -205,7 +207,7 @@
   <project path="external/libyuv" name="LineageOS/android_external_libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="LineageOS/android_external_linux-tools-perf" />
   <project path="external/littlemock" name="LineageOS/android_external_littlemock" />
-  <project path="external/llvm" name="LineageOS/android_external_llvm" groups="pdk" />
+  <project path="external/llvm" name="LineageOS-ARMv6/android_external_llvm" groups="pdk" />
   <project path="external/lzma" name="platform/external/lzma" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/lsof" name="LineageOS/android_external_lsof" />
   <project path="external/lzo" name="LineageOS/android_external_lzo" />
@@ -256,7 +258,7 @@
   <project path="external/sepolicy" name="LineageOS/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="LineageOS/android_external_sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/skia" name="LineageOS/android_external_skia" />
+  <project path="external/skia" name="LineageOS-ARMv6/android_external_skia" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/smali" name="LineageOS/android_external_smali" />
   <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" />
@@ -265,9 +267,9 @@
   <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" />
   <project path="external/square/dagger" name="LineageOS/android_external_square_dagger" />
   <project path="external/square/javawriter" name="LineageOS/android_external_square_javawriter" />
-  <project path="external/srec" name="LineageOS/android_external_srec" />
+  <project path="external/srec" name="LineageOS-ARMv6/android_external_srec" />
   <project path="external/srtp" name="LineageOS/android_external_srtp" />
-  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
+  <!--project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" /-->
   <project path="external/stlport" name="LineageOS/android_external_stlport" groups="pdk" />
   <project path="external/strace" name="LineageOS/android_external_strace" />
   <project path="external/stressapptest" name="LineageOS/android_external_stressapptest" />
@@ -282,7 +284,7 @@
   <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
   <project path="external/v8" name="LineageOS/android_external_v8" />
-  <project path="external/valgrind" name="LineageOS/android_external_valgrind" groups="pdk" />
+  <project path="external/valgrind" name="LineageOS-ARMv6/android_external_valgrind" groups="pdk" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="external/webp" name="LineageOS/android_external_webp" />
   <project path="external/webrtc" name="LineageOS/android_external_webrtc" groups="pdk" />
@@ -302,7 +304,7 @@
   <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" />
   <project path="frameworks/mff" name="LineageOS/android_frameworks_mff" />
   <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" />
-  <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="LineageOS-ARMv6/android_frameworks_native" groups="pdk" revision="cm-11.0-armv6" />
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="LineageOS/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="LineageOS/android_frameworks_opt_colorpicker" />
@@ -323,11 +325,11 @@
   <project path="frameworks/support" name="LineageOS/android_frameworks_support" />
   <project path="frameworks/testing" name="LineageOS/android_frameworks_testing" />
   <project path="frameworks/volley" name="LineageOS/android_frameworks_volley" />
-  <project path="frameworks/webview" name="LineageOS/android_frameworks_webview" />
+  <project path="frameworks/webview" name="LineageOS-ARMv6/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="LineageOS/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="LineageOS/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="LineageOS-ARMv6/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="LineageOS/android_hardware_cm" />
   <project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
@@ -478,7 +480,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk,tools" />
   <project path="sdk" name="LineageOS/android_sdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" revision="refs/tags/android-8.1.0_r4" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <project path="system/core" name="LineageOS-ARMv6/android_system_core" groups="pdk" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
@@ -495,7 +497,8 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="vendor/cm" name="LineageOS/android_vendor_cm" >
+  <project path="vendor/cm" name="LineageOS-ARMv6/android_vendor_cm" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
+  <project path="vendor/google" name="LineageOS-ARMv6/android_vendor_google" />
 </manifest>
