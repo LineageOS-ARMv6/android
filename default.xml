@@ -17,14 +17,14 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="LineageOS/android_build">
+  <project path="build" name="LineageOS-ARMv6/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="android" name="LineageOS-ARMv6/android" />
 
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="bionic" name="LineageOS/android_bionic" />
+  <project path="bionic" name="LineageOS-ARMv6/android_bionic" />
   <project path="bootable/bootloader/legacy" name="LineageOS/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="LineageOS/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
@@ -164,7 +164,7 @@
   <project path="external/vim" name="LineageOS/android_external_vim" revision="master" />
   <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" />
   <project path="external/zlib" name="LineageOS/android_external_zlib" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="LineageOS-ARMv6/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="frameworks/compile/slang" name="LineageOS/android_frameworks_compile_slang" />
@@ -224,7 +224,7 @@
   <project path="packages/apps/Protips" name="LineageOS/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="LineageOS/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="LineageOS/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="LineageOS-ARMv6/android_packages_apps_Settings" />
   <project path="packages/apps/SoundRecorder" name="LineageOS/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -260,13 +260,14 @@
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="sdk" name="LineageOS/android_sdk" />
   <project path="system/bluetooth" name="LineageOS/android_system_bluetooth" />
-  <project path="system/core" name="LineageOS/android_system_core" />
+  <project path="system/core" name="LineageOS-ARMv6/android_system_core" />
   <project path="system/extras" name="LineageOS/android_system_extras" />
   <project path="system/media" name="LineageOS/android_system_media" />
   <project path="system/netd" name="LineageOS/android_system_netd" />
   <project path="system/su" name="LineageOS/android_system_su" />
-  <project path="system/vold" name="LineageOS/android_system_vold" />
-  <project path="vendor/cm" name="LineageOS/android_vendor_cm" />
+  <project path="system/vold" name="LineageOS-ARMv6/android_system_vold" />
+  <project path="vendor/cm" name="LineageOS-ARMv6/android_vendor_cm" />
+  <project path="vendor/google" name="LineageOS-ARMv6/android_vendor_google" />
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="LineageOS/android_vendor_qcom_opensource_kernel-tests_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-audio" name="LineageOS/android_vendor_qcom_opensource_omx_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="LineageOS/android_vendor_qcom_opensource_omx_mm-core" />
