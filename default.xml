@@ -20,6 +20,9 @@
   <project path="build" name="LineageOS/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project path="android" name="LineageOS/android" />
+
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="bionic" name="LineageOS/android_bionic" />
   <project path="bootable/bootloader/legacy" name="LineageOS/android_bootable_bootloader_legacy" />
@@ -255,6 +258,14 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="sdk" name="LineageOS/android_sdk" />
+  <project path="system/bluetooth" name="LineageOS/android_system_bluetooth" />
+  <project path="system/core" name="LineageOS/android_system_core" />
+  <project path="system/extras" name="LineageOS/android_system_extras" />
+  <project path="system/media" name="LineageOS/android_system_media" />
+  <project path="system/netd" name="LineageOS/android_system_netd" />
+  <project path="system/su" name="LineageOS/android_system_su" />
+  <project path="system/vold" name="LineageOS/android_system_vold" />
   <project path="vendor/cm" name="LineageOS/android_vendor_cm" />
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="LineageOS/android_vendor_qcom_opensource_kernel-tests_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-audio" name="LineageOS/android_vendor_qcom_opensource_omx_mm-audio" />
@@ -265,14 +276,4 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="LineageOS/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="LineageOS/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="LineageOS/android_vendor_tmobile_products_themes" />
-  <project path="sdk" name="LineageOS/android_sdk" />
-  <project path="system/bluetooth" name="LineageOS/android_system_bluetooth" />
-  <project path="system/core" name="LineageOS/android_system_core" />
-  <project path="system/extras" name="LineageOS/android_system_extras" />
-  <project path="system/media" name="LineageOS/android_system_media" />
-  <project path="system/netd" name="LineageOS/android_system_netd" />
-  <project path="system/su" name="LineageOS/android_system_su" />
-  <project path="system/vold" name="LineageOS/android_system_vold" />
-
-  <project path="android" name="LineageOS/android" />
 </manifest>
