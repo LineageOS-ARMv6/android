@@ -21,7 +21,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="LineageOS/android" />
+  <project path="android" name="LineageOS-ARMv6/android" />
 
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="bionic" name="LineageOS/android_bionic" />

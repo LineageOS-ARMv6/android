@@ -1,4 +1,4 @@
-LineageOS
+LineageOS-ARMv6
 ===========
 
 Submitting Patches
@@ -31,11 +31,11 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 
-    repo init -u git://github.com/LineageOS/android.git -b ics
+    repo init -u git://github.com/LineageOS-ARMv6/android.git -b ics
 
 To initialize a shallow clone, which will save even more space, use a command like this:
 
-    repo init --depth=1 -u git://github.com/LineageOS/android.git -b ics
+    repo init --depth=1 -u git://github.com/LineageOS-ARMv6/android.git -b ics
 
 Then to sync up:
 
